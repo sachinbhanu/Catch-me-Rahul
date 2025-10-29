@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catch me Rahul</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- Start overlay -->
+  <div id="overlay">
+    <div id="title">Flappy Bird — Keyboard Control</div>
+    <button id="startBtn">Start Game</button>
+    <div id="hint">Controls: <strong>ArrowUp</strong> / <strong>ArrowDown</strong></div>
+  </div>
+
+  <!-- Score display -->
+  <div id="hud">
+    <div id="score">Score: <span id="scoreValue">0</span></div>
+    <div id="best">Best: <span id="bestValue">0</span></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
